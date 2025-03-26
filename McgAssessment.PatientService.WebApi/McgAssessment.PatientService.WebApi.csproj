@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\McgAssessment.Data.EFInMemory\McgAssessment.Data.EFInMemory.csproj" />
+    <ProjectReference Include="..\McgAssessment.Data.LocalFileSystem\McgAssessment.Data.LocalFileSystem.csproj" />
+    <ProjectReference Include="..\McgAssessment.Data\McgAssessment.Data.csproj" />
+    <ProjectReference Include="..\McgAssessment.PatientService.Server\McgAssessment.PatientService.Server.csproj" />
+    <ProjectReference Include="..\McgAssessment.PatientService\McgAssessment.PatientService.csproj" />
+    <ProjectReference Include="..\McgAssessment.Security.Simple\McgAssessment.Security.Simple.csproj" />
+    <ProjectReference Include="..\McgAssessment.Security\McgAssessment.Security.csproj" />
+    <ProjectReference Include="..\McgAssessment.UserService.Client\McgAssessment.UserService.Client.csproj" />
+    <ProjectReference Include="..\McgAssessment.UserService\McgAssessment.UserService.csproj" />
+  </ItemGroup>
+
+</Project>

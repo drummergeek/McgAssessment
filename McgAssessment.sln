@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.Data", "McgAssessment.Data\McgAssessment.Data.csproj", "{BF72E3FB-9FD3-4632-8CB9-754442EC2F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.Data.EFInMemory", "McgAssessment.Data.EFInMemory\McgAssessment.Data.EFInMemory.csproj", "{5AA3B2B0-C6B1-42BD-927E-E7FBAB522E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.PatientService", "McgAssessment.PatientService\McgAssessment.PatientService.csproj", "{30E850D3-D486-425B-BE20-ECBA9FC0FB82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.PatientService.Server", "McgAssessment.PatientService.Server\McgAssessment.PatientService.Server.csproj", "{266BE79C-EB09-4197-857B-283F84E3C164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.Security", "McgAssessment.Security\McgAssessment.Security.csproj", "{195E6B5A-FC92-41F2-8CFF-EE7FB697E5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.Security.Simple", "McgAssessment.Security.Simple\McgAssessment.Security.Simple.csproj", "{944D277D-AAE2-400A-987B-470E7765021E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.UserService", "McgAssessment.UserService\McgAssessment.UserService.csproj", "{BDA241CE-282C-4BEE-AF07-9078994738E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.UserService.Client", "McgAssessment.UserService.Client\McgAssessment.UserService.Client.csproj", "{8D2DE917-32FF-4BB2-BA07-336117746958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.PatientService.WebApi", "McgAssessment.PatientService.WebApi\McgAssessment.PatientService.WebApi.csproj", "{CD9699DA-8AB9-4D9A-96A2-96A15BF2D1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McgAssessment.Data.LocalFileSystem", "McgAssessment.Data.LocalFileSystem\McgAssessment.Data.LocalFileSystem.csproj", "{2109B2AF-8021-47A3-8904-3928E6FE9863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF72E3FB-9FD3-4632-8CB9-754442EC2F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF72E3FB-9FD3-4632-8CB9-754442EC2F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF72E3FB-9FD3-4632-8CB9-754442EC2F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF72E3FB-9FD3-4632-8CB9-754442EC2F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA3B2B0-C6B1-42BD-927E-E7FBAB522E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA3B2B0-C6B1-42BD-927E-E7FBAB522E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA3B2B0-C6B1-42BD-927E-E7FBAB522E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA3B2B0-C6B1-42BD-927E-E7FBAB522E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E850D3-D486-425B-BE20-ECBA9FC0FB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E850D3-D486-425B-BE20-ECBA9FC0FB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E850D3-D486-425B-BE20-ECBA9FC0FB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E850D3-D486-425B-BE20-ECBA9FC0FB82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266BE79C-EB09-4197-857B-283F84E3C164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266BE79C-EB09-4197-857B-283F84E3C164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266BE79C-EB09-4197-857B-283F84E3C164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266BE79C-EB09-4197-857B-283F84E3C164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195E6B5A-FC92-41F2-8CFF-EE7FB697E5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195E6B5A-FC92-41F2-8CFF-EE7FB697E5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195E6B5A-FC92-41F2-8CFF-EE7FB697E5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195E6B5A-FC92-41F2-8CFF-EE7FB697E5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944D277D-AAE2-400A-987B-470E7765021E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944D277D-AAE2-400A-987B-470E7765021E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944D277D-AAE2-400A-987B-470E7765021E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944D277D-AAE2-400A-987B-470E7765021E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA241CE-282C-4BEE-AF07-9078994738E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA241CE-282C-4BEE-AF07-9078994738E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA241CE-282C-4BEE-AF07-9078994738E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA241CE-282C-4BEE-AF07-9078994738E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2DE917-32FF-4BB2-BA07-336117746958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2DE917-32FF-4BB2-BA07-336117746958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2DE917-32FF-4BB2-BA07-336117746958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2DE917-32FF-4BB2-BA07-336117746958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9699DA-8AB9-4D9A-96A2-96A15BF2D1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9699DA-8AB9-4D9A-96A2-96A15BF2D1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9699DA-8AB9-4D9A-96A2-96A15BF2D1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9699DA-8AB9-4D9A-96A2-96A15BF2D1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2109B2AF-8021-47A3-8904-3928E6FE9863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2109B2AF-8021-47A3-8904-3928E6FE9863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2109B2AF-8021-47A3-8904-3928E6FE9863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2109B2AF-8021-47A3-8904-3928E6FE9863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

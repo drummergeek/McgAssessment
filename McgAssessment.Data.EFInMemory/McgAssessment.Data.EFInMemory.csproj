@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\McgAssessment.Data\McgAssessment.Data.csproj" />
+    <ProjectReference Include="..\McgAssessment.Security\McgAssessment.Security.csproj" />
+  </ItemGroup>
+
+</Project>

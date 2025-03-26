@@ -118,7 +118,7 @@ public class PatientDataController : ControllerBase
         return Ok(response.Result);
     }
 
-    [HttpPost("update/{id}")]
+    [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateAsync(string id, [FromBody] Patient patient,
         CancellationToken cancellationToken = default)
     {
